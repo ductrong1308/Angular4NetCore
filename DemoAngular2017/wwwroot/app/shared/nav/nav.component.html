@@ -1,0 +1,8 @@
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-collapse collapse">
+            <a *ngFor="let item of menuItems" [routerLink]="item.link" class="nav-link" routerLinkActive="router-link-active" href="">{{item.caption}}</a>
+        </div>
+    </div>
+</nav>

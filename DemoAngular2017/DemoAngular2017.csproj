@@ -1,0 +1,141 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\app\about\about.component.html" />
+    <Content Include="wwwroot\app\about\about.component.js" />
+    <Content Include="wwwroot\app\about\about.component.js.map" />
+    <Content Include="wwwroot\app\about\about.component.ts" />
+    <Content Include="wwwroot\app\about\about.module.js" />
+    <Content Include="wwwroot\app\about\about.module.js.map" />
+    <Content Include="wwwroot\app\about\about.routing.module.js" />
+    <Content Include="wwwroot\app\about\about.routing.module.js.map" />
+    <Content Include="wwwroot\app\about\about.routing.module.ts" />
+    <Content Include="wwwroot\app\about\app.component.html">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\about.module.ts">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\app.routing.module.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\app.routing.module.js.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\app.routing.module.ts">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\home-about-component.js" />
+    <Content Include="wwwroot\app\about\home-about-component.js.map" />
+    <Content Include="wwwroot\app\about\home-about-component.ts" />
+    <Content Include="wwwroot\app\about\home-page-component.js" />
+    <Content Include="wwwroot\app\about\home-page-component.js.map" />
+    <Content Include="wwwroot\app\about\home-page-component.ts" />
+    <Content Include="wwwroot\app\about\main.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\main.js.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\main.ts">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\page-not-found.component.js">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\page-not-found.component.js.map">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\about\page-not-found.component.ts">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="wwwroot\app\app.component.html" />
+    <Content Include="wwwroot\app\app.component.js" />
+    <Content Include="wwwroot\app\app.component.js.map" />
+    <Content Include="wwwroot\app\app.component.ts" />
+    <Content Include="wwwroot\app\app.module.js" />
+    <Content Include="wwwroot\app\app.module.js.map" />
+    <Content Include="wwwroot\app\app.module.ts" />
+    <Content Include="wwwroot\app\app.routing.module.js" />
+    <Content Include="wwwroot\app\app.routing.module.js.map" />
+    <Content Include="wwwroot\app\home\app.routing.module.js" />
+    <Content Include="wwwroot\app\home\app.routing.module.js.map" />
+    <Content Include="wwwroot\app\app.routing.module.ts" />
+    <Content Include="wwwroot\app\home\app.component.html" />
+    <Content Include="wwwroot\app\home\app.component.js" />
+    <Content Include="wwwroot\app\home\app.component.js.map" />
+    <Content Include="wwwroot\app\home\app.component.ts" />
+    <Content Include="wwwroot\app\home\app.module.js" />
+    <Content Include="wwwroot\app\home\app.module.js.map" />
+    <Content Include="wwwroot\app\home\app.module.ts" />
+    <Content Include="wwwroot\app\home\app.routing.module.ts" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard-button\dashboard-button.component.css" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard-button\dashboard-button.component.html" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard-button\dashboard-button.component.js" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard-button\dashboard-button.component.js.map" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard-button\dashboard-button.component.ts" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard-routing.module.js" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard-routing.module.js.map" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard-routing.module.ts" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard.component.css" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard.component.html" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard.component.js" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard.component.js.map" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard.component.ts" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard.module.js" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard.module.js.map" />
+    <Content Include="wwwroot\app\home\dashboard\dashboard.module.ts" />
+    <Content Include="wwwroot\app\home\main.js" />
+    <Content Include="wwwroot\app\home\main.js.map" />
+    <Content Include="wwwroot\app\home\main.ts" />
+    <Content Include="wwwroot\app\home\page-not-found.component.js" />
+    <Content Include="wwwroot\app\home\page-not-found.component.js.map" />
+    <Content Include="wwwroot\app\home\page-not-found.component.ts" />
+    <Content Include="wwwroot\app\main.js" />
+    <Content Include="wwwroot\app\main.js.map" />
+    <Content Include="wwwroot\app\main.ts" />
+    <Content Include="wwwroot\app\page-not-found.component.js" />
+    <Content Include="wwwroot\app\page-not-found.component.js.map" />
+    <Content Include="wwwroot\app\page-not-found.component.ts" />
+    <Content Include="wwwroot\app\shared\index.ts" />
+    <Content Include="wwwroot\app\shared\nav\nav.component.css" />
+    <Content Include="wwwroot\app\shared\nav\nav.component.html" />
+    <Content Include="wwwroot\app\shared\nav\nav.component.js" />
+    <Content Include="wwwroot\app\shared\nav\nav.component.js.map" />
+    <Content Include="wwwroot\app\shared\nav\nav.component.ts" />
+    <Content Include="wwwroot\app\shared\shared.module.js" />
+    <Content Include="wwwroot\app\shared\shared.module.js.map" />
+    <Content Include="wwwroot\app\shared\shared.module.ts" />
+    <Content Include="wwwroot\index.html" />
+    <Content Include="wwwroot\systemjs.config.extras.js" />
+    <Content Include="wwwroot\systemjs.config.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\About\" />
+  </ItemGroup>
+
+</Project>
